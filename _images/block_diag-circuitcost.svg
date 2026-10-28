@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="637" height="628" viewBox="0 0 637 628">
   <image href="block_diag.png" width="637" height="628" />
-  <rect x="286" y="282" width="345" height="76" fill="#fff" />
+  <rect x="286" y="282" width="345" height="105" fill="#fff" />
   <text x="292" y="339" fill="#07165c" font-family="Georgia, 'Times New Roman', serif" font-size="51" font-weight="700">CircuitCost</text>
+  <text x="460" y="366" text-anchor="middle" fill="#07165c" font-family="Arial, sans-serif" font-size="14">Built by Linyan Zou</text>
+  <path d="M 385 374 H 405 V 379 H 414 L 395 390 L 376 379 H 385 Z" fill="#8b0000" />
 </svg>
