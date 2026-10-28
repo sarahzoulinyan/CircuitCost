@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="446" height="379" viewBox="0 0 446 379">
+  <image href="guide_screen.png" width="446" height="379" />
+  <rect x="68" y="4" width="186" height="20" rx="2" fill="#3b3b3b" />
+  <text x="73" y="19" fill="#f2f2f2" font-family="Ubuntu, Arial, sans-serif" font-size="14" font-weight="700">CircuitCost v.0.1.42</text>
+  <rect x="57" y="38" width="102" height="23" fill="#ededed" />
+  <text x="61" y="54" fill="#666" font-family="Ubuntu, Arial, sans-serif" font-size="12">CircuitCost config</text>
+  <rect x="231" y="276" width="73" height="19" rx="2" fill="#f0f0f0" />
+  <text x="234" y="290" fill="#333" font-family="Ubuntu, Arial, sans-serif" font-size="11">CircuitCost it!</text>
+</svg>
