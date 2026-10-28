@@ -94,7 +94,7 @@ window and typing the command:</p>
 </div>
 <p>If you want to install the current development code you must install <a class="reference external" href="http://git-scm.com/download/win">GIT</a>.
 After installing GIT:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">prompt</span><span class="o">&gt;</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">hildogjr</span><span class="o">/</span><span class="n">CircuitCost</span><span class="o">.</span><span class="n">git</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">prompt</span><span class="o">&gt;</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">sarahzoulinyan</span><span class="o">/</span><span class="n">CircuitCost</span><span class="o">.</span><span class="n">git</span>
 </pre></div>
 </div>
 </section>
@@ -115,7 +115,7 @@ $ circuitcost # Execute CircuitCost without input arguments to initialize the GU
 </div>
 <p>To install the last code version from GitHub, use:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install git # It&#39;s necessary to have Git installed.
-$ sudo -H pip3 install -U git+https://github.com/hildogjr/CircuitCost.git
+$ sudo -H pip3 install -U git+https://github.com/sarahzoulinyan/CircuitCost.git
 </pre></div>
 </div>
 </section>
@@ -679,7 +679,7 @@ and password for the site. As an example, to get the keys for Digi-Key you’ll 
 Then you have to register and get a <cite>clientId</cite> and a <cite>clientSecret</cite> to use in the configuration file.</p>
 <p>The current Digi-Key plugin needs to validate the user using a complex mechanism. It will open a navigator
 window to get a token. If you get an error about a wrong certificate please ignore it. The obtained token
-is cached, so you don’t need to validate it all the time. For more information consult the <a class="reference external" href="https://github.com/set-soft/circuitcost-digikey-api-v4/">DigiKey_PlugIn_site</a>.</p>
+is cached, so you don’t need to validate it all the time.</p>
 <p>You can also define options using environment variables. As an example, you can specify Mouser’s key defining
 the <cite>MOUSER_KEY</cite> environment variable. Note that environment variables has more precedence than the default config file.
 But command line options, including any configuration file passed using it, has the highest priority.</p>
@@ -693,7 +693,7 @@ little bit helps, and credit will always be given.</p>
 <h3>Types of Contributions<a class="headerlink" href="#types-of-contributions" title="Link to this heading">¶</a></h3>
 <section id="report-bugs">
 <h4>Report Bugs<a class="headerlink" href="#report-bugs" title="Link to this heading">¶</a></h4>
-<p>Report bugs at <a class="reference external" href="https://github.com/xesscorp/circuitcost/issues">https://github.com/xesscorp/circuitcost/issues</a>.</p>
+<p>Report bugs at <a class="reference external" href="https://github.com/sarahzoulinyan/CircuitCost/issues">https://github.com/sarahzoulinyan/CircuitCost/issues</a>.</p>
 <p>If you are reporting a bug, please include:</p>
 <ul class="simple">
 <li><p>Your operating system name and version.</p></li>
@@ -719,7 +719,7 @@ articles, and such.</p>
 </section>
 <section id="submit-feedback">
 <h4>Submit Feedback<a class="headerlink" href="#submit-feedback" title="Link to this heading">¶</a></h4>
-<p>The best way to send feedback is to file an issue at <a class="reference external" href="https://github.com/xesscorp/circuitcost/issues">https://github.com/xesscorp/circuitcost/issues</a>.</p>
+<p>The best way to send feedback is to file an issue at <a class="reference external" href="https://github.com/sarahzoulinyan/CircuitCost/issues">https://github.com/sarahzoulinyan/CircuitCost/issues</a>.</p>
 <p>If you are proposing a feature:</p>
 <ul class="simple">
 <li><p>Explain in detail how it would work.</p></li>
@@ -779,7 +779,7 @@ $ git push origin name-of-your-bugfix-or-feature
 your new functionality into a function with a docstring, and add the
 feature to the list in README.rst.</p></li>
 <li><p>The pull request should work for Python 2.6, 2.7, 3.3, and 3.4, and for PyPy. Check
-<a class="reference external" href="https://travis-ci.org/xesscorp/circuitcost/pull_requests">https://travis-ci.org/xesscorp/circuitcost/pull_requests</a>
+<a class="reference external" href="https://github.com/sarahzoulinyan/CircuitCost/actions">https://github.com/sarahzoulinyan/CircuitCost/actions</a>
 and make sure that the tests pass for all supported Python versions.</p></li>
 </ol>
 </section>
@@ -789,38 +789,6 @@ and make sure that the tests pass for all supported Python versions.</p></li>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python -m unittest tests.test_circuitcost
 </pre></div>
 </div>
-</section>
-</section>
-<span id="document-authors"></span><section id="credits">
-<h2>Credits<a class="headerlink" href="#credits" title="Link to this heading">¶</a></h2>
-<section id="development-lead">
-<h3>Development Lead<a class="headerlink" href="#development-lead" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p>XESS Corporation &lt;<a class="reference external" href="mailto:info&#37;&#52;&#48;xess&#46;com">info<span>&#64;</span>xess<span>&#46;</span>com</a>&gt;</p></li>
-</ul>
-</section>
-<section id="gui-main-collaborator-and-maintainer">
-<h3>GUI, main collaborator and maintainer<a class="headerlink" href="#gui-main-collaborator-and-maintainer" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p>Hildo Guillardi Júnior <a class="reference external" href="https://github.com/hildogjr">https://github.com/hildogjr</a></p></li>
-</ul>
-</section>
-<section id="contributors">
-<h3>Contributors<a class="headerlink" href="#contributors" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p>Oliver Martin: <a class="reference external" href="https://github.com/oliviermartin">https://github.com/oliviermartin</a></p></li>
-<li><p>Timo Alho: <a class="reference external" href="https://github.com/timoalho">https://github.com/timoalho</a></p></li>
-<li><p>Steven Johnson: <a class="reference external" href="https://github.com/stevenj">https://github.com/stevenj</a></p></li>
-<li><p>Diorcet Yann: <a class="reference external" href="https://github.com/diorcety">https://github.com/diorcety</a></p></li>
-<li><p>Giacinto Luigi Cerone <a class="reference external" href="https://github.com/glcerone">https://github.com/glcerone</a></p></li>
-<li><p>Hildo Guillardi Júnior <a class="reference external" href="https://github.com/hildogjr">https://github.com/hildogjr</a></p></li>
-<li><p>Adam Heinrich <a class="reference external" href="https://github.com/adamheinrich">https://github.com/adamheinrich</a></p></li>
-<li><p>Max Maisel <a class="reference external" href="https://github.com/mmmaisel">https://github.com/mmmaisel</a></p></li>
-<li><p>johnthagen <a class="reference external" href="https://github.com/johnthagen">https://github.com/johnthagen</a></p></li>
-<li><p>Frieder Schrempf <a class="reference external" href="https://github.com/fri-sch">https://github.com/fri-sch</a></p></li>
-<li><p>Mario DE WEERD <a class="reference external" href="https://github.com/mdeweerd">https://github.com/mdeweerd</a></p></li>
-<li><p>Salvador E. Tropea <a class="reference external" href="https://github.com/set-soft">https://github.com/set-soft</a></p></li>
-</ul>
 </section>
 </section>
 <span id="document-history"></span><section id="history">
@@ -1179,7 +1147,7 @@ assigned a multiplier to indicate the quantity of the subpart needed for each pa
 <section id="id39">
 <h3>0.1.31 (2016-11-14)<a class="headerlink" href="#id39" title="Link to this heading">¶</a></h3>
 <ul class="simple">
-<li><p>Giacinto Luigi Cerone added support for distributors Farnell and RS.</p></li>
+<li><p>Added support for distributors Farnell and RS.</p></li>
 </ul>
 </section>
 <section id="id40">
@@ -3077,8 +3045,8 @@ See: <a class="reference external" href="http://en.wikipedia.org/wiki/ANSI_escap
 <p>&#64;package
 CircuitCost script, also with Graphical User Interface - GUI, under MIT license for generate part-cost spreadsheets for circuit boards developed with KiCad and
 others EDAs.
-Full manual at <a class="reference external" href="https://xesscorp.github.io/CircuitCost">https://xesscorp.github.io/CircuitCost</a>
-Development at <a class="reference external" href="https://github.com/xesscorp/CircuitCost">https://github.com/xesscorp/CircuitCost</a></p>
+Full manual at <a class="reference external" href="https://sarahzoulinyan.github.io/CircuitCost">https://sarahzoulinyan.github.io/CircuitCost</a>
+Development at <a class="reference external" href="https://github.com/sarahzoulinyan/CircuitCost">https://github.com/sarahzoulinyan/CircuitCost</a></p>
 <dl class="simple">
 <dt>Command line:</dt><dd><p>circuitcost -i “%I” “%O.xslx”</p>
 </dd>
@@ -3974,12 +3942,6 @@ argument <cite>false</cite> to convert a symbol to False.</p>
 <li class="toctree-l2"><a class="reference internal" href="#get-started">Get Started!</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#pull-request-guidelines">Pull Request Guidelines</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#tips">Tips</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="#document-authors">Credits</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#development-lead">Development Lead</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#gui-main-collaborator-and-maintainer">GUI, main collaborator and maintainer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#contributors">Contributors</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="#document-history">History</a><ul>
